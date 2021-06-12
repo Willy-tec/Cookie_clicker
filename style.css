@@ -1,0 +1,65 @@
+html{
+    padding: 0;
+    margin:0;
+  }
+  body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 90vw;
+    height: 90vh;
+  }
+  main{
+    width: auto;
+    background: white;
+    padding: 1rem;
+    border-radius: .5rem; 
+  }
+  .reserve{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: whitesmoke
+  }
+  img{
+    margin: 2rem;
+    width: 50%;
+    max-width: 30rem;
+    object-fit: cover;
+    transition: transform 50ms;
+    cursor: pointer;
+    user-select: none;
+  }
+  img:hover{
+    transform: scale(1.1);
+    transition: transform 50ms;
+  }
+  img:active{
+    transition: transform 50ms;
+    transform: scale(1.05);
+  }
+  
+  ul{
+    list-style: none;
+    min-width: 10rem;
+  }
+  
+  li{
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: whitesmoke;
+    cursor: pointer;
+  }
+  li:hover{
+    transform: scale(1.1);
+    transition: transform 50ms;
+  }
+  li:active{
+    transform: scale(1.05);
+    transition: transform 50ms;
+  }
